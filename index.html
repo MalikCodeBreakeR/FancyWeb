@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project3</title>
+    <link rel="stylesheet" href="bootstrap//css//bootstrap.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="padding: 2%;" class="bg-light">
+    <header class="mb-1 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/assets/logo.jpg" alt="logo" style="width: 80%;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success text-white bg-primary" type="submit">Get Heare</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative">
+                    <img src="assets/slide1.jpg" class="d-block w-100" alt="slide1">
+                    <div class="carousel-caption d-none d-md-block position-absolute" style="top: 40%;">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button type="button" class="btn btn-outline-light">Read More</button>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="assets/slide2.jpg" class="d-block w-100" alt="slide2">
+                    <div class="carousel-caption d-none d-md-block position-absolute" style="top: 40%;">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <button type="button" class="btn btn-outline-light">Read More</button>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="assets/slide3.jpg" class="d-block w-100" alt="slide3">
+                    <div class="carousel-caption d-none d-md-block position-absolute" style="top: 40%;">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <button type="button" class="btn btn-outline-light">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- 2s -->
+
+        <br>
+        <h1 class="fs-3 text-primary d-flex justify-content-center">Features</h1>
+        <h1 class="fs-3 d-flex justify-content-center">Whye Choose?</h1>
+
+        <!-- 2e -->
+        <!-- 3s -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-3">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor" class="bi bi-stack"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.6.6 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.6.6 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.6.6 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535z" />
+                            <path
+                                d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.6.6 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center ">Boostrap 5</h5>
+                        <p class="card-text d-flex justify-content-center ">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor" class="bi bi-brush"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center ">Awesome Design</h5>
+                        <p class="card-text d-flex justify-content-center ">This card has supporting text below as a
+                            natural lead-in to additional
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
+                            class="bi bi-hand-index-thumb" viewBox="0 0 16 16">
+                            <path
+                                d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 0 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 1 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.118a.5.5 0 0 1-.447-.276l-1.232-2.465-2.512-4.185a.517.517 0 0 1 .809-.631l2.41 2.41A.5.5 0 0 0 6 9.5V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center ">One-page Template</h5>
+                        <p class="card-text d-flex justify-content-center ">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3e -->
+        <!-- 4s -->
+
+        <div class="card mb-3 bg-light">
+            <div class="row g-0">
+                <div class="col-md-4 position-relative">
+                    <img src="assets/men.jpg" class="img-fluid rounded-start image" alt="men">
+                    <div class="inside position-absolute">
+                        <h5 class="year">5 year of working Experiance</h5>
+                        <p class="disc"><small>This is a wider card with supporting text below
+                                as a natural longer.</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">About us</h5>
+                        <h5 class="card-titl">Built-With Boostrap 5, a New Experiance</h5>
+                        <p class="card-text"><small class="text-muted">This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This content is a little bit longer.</small>
+                        </p>
+                        <h5 class="card-title text-primary d-flex justify-content-center">30K</h5>
+                        <h5 class="card-titl d-flex justify-content-center">Happy Client</h5>
+                        <p class="card-text d-flex justify-content-center"><small class="text-muted">This is a wider
+                                card with supporting text below</small></p>
+                        <h5 class="card-title text-primary d-flex justify-content-center">42K</h5>
+                        <h5 class="card-titl d-flex justify-content-center">Project Done</h5>
+                        <p class="card-text d-flex justify-content-center"><small class="text-muted">This is a wider
+                                card with supporting text below</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4e -->
+        <!-- 5s -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
+                            class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+                            <path
+                                d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5m0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78zM5.048 3.967l-.087.065zm-.431.355A4.98 4.98 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8zm.344 7.646.087.065z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Clean & Refreshing</h5>
+                        <p class="card-text d-flex justify-content-center">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
+                            class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+                            <path
+                                d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5m0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78zM5.048 3.967l-.087.065zm-.431.355A4.98 4.98 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8zm.344 7.646.087.065z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Solid Boostrap 5</h5>
+                        <p class="card-text d-flex justify-content-center">This card has supporting text below as a
+                            natural lead-in to additional
+                            content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
+                            class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5" />
+                            <path
+                                d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Crafted for Business</h5>
+                        <p class="card-text d-flex justify-content-center">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
+                            class="bi bi-lightning-charge" viewBox="0 0 16 16">
+                            <path
+                                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Speed Optimized</h5>
+                        <p class="card-text d-flex justify-content-center">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor" class="bi bi-infinity"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Fully Customizable</h5>
+                        <p class="card-text d-flex justify-content-center">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="d-flex justify-content-center mt-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor"
+                            class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                            <path
+                                d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9" />
+                            <path fill-rule="evenodd"
+                                d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Regular Updates</h5>
+                        <p class="card-text d-flex justify-content-center">This is a wider card with supporting text
+                            below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 5e -->
+        <!-- 6s -->
+        <h1 class="fs-3 text-primary d-flex justify-content-center">Team</h1>
+        <h1 class="fs-3 d-flex justify-content-center">Meet Our Expert</h1>
+        <p class="card-text d-flex justify-content-center"><small class="text-muted">This is a wider card with
+                supporting text below</small></p>
+        <div class="row row-cols-1 row-cols-md-4 g-3">
+            <div class="col">
+                <div class="border-light card" style="height: 100px;">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-light h-100">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-light">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-light">
+                </div>
+            </div>
+        </div>
+        <!-- 6e -->
+        <!-- 7s -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-60">
+                    <img src="assets/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Michel Smith</h5>
+                        <p class="card-text d-flex justify-content-center">Product Desiner</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img class="me-3" src="assets/b1.jpg" alt="insta" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b2.jpg" alt="linkedIn" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b3.jpg" alt="snapchat" style="width: 15%; border-radius: 100%;">
+                        <img src="assets/b4.jpg" alt="twitter" style="width: 15%; border-radius: 100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="assets/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">David Smith</h5>
+                        <p class="card-text d-flex justify-content-center">Creative Desiner</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img class="me-3" src="assets/b1.jpg" alt="insta" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b2.jpg" alt="linkedIn" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b3.jpg" alt="snapchat" style="width: 15%; border-radius: 100%;">
+                        <img src="assets/b4.jpg" alt="twitter" style="width: 15%; border-radius: 100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="assets/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">John Doe</h5>
+                        <p class="card-text d-flex justify-content-center">Graphics Desiner</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img class="me-3" src="assets/b1.jpg" alt="insta" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b2.jpg" alt="linkedIn" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b3.jpg" alt="snapchat" style="width: 15%; border-radius: 100%;">
+                        <img src="assets/4.jpg" alt="twitter" style="width: 15%; border-radius: 100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60">
+                    <img src="assets/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex justify-content-center">Huoe John</h5>
+                        <p class="card-text d-flex justify-content-center">Web Desiner</p>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img class="me-3" src="assets/b1.jpg" alt="insta" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b2.jpg" alt="linkedIn" style="width: 15%; border-radius: 100%;">
+                        <img class="me-3" src="assets/b3.jpg" alt="snapchat" style="width: 15%; border-radius: 100%;">
+                        <img src="assets/b4.jpg" alt="twitter" style="width: 15%; border-radius: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 7e -->
+
+    </main>
+
+    <footer class="bg-light mt-3 p-4">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col bg-light">
+                <div class="card h-60 border-0 bg-light">
+                    <div class="card-body">
+                        <div class="card-title d-flex justify-content-center"><img src="/assets/logo.jpg" alt="logo"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga debitis a maxime tempora
+                            mollitia rem culpa!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bg-light">
+                <div class="card h-60 border-0 bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Quick Link</h5>
+                        <ul class="card-text">
+                            <li><a href="home" style="text-decoration: none;">Home</a></li>
+                            <li><a href="About" style="text-decoration: none;">About us</a></li>
+                            <li><a href="Service" style="text-decoration: none;">Service</a></li>
+                            <li><a href="contact" style="text-decoration: none;">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col bg-light">
+                <div class="card h-60 border-0 bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Service</h5>
+                        <ul class="card-text">
+                            <li><a href="marketing" style="text-decoration: none;">branding</a></li>
+                            <li><a href="About" style="text-decoration: none;">Branding</a></li>
+                            <li><a href="web" style="text-decoration: none;">Web Design</a></li>
+                            <li><a href="graphic" style="text-decoration: none;">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col bg-light">
+                <div class="card h-60 border-0 bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Huoe John</h5>
+                        <ul class="card-text">
+                            <li>7080174899</li>
+                            <li>Mohd Asrar Malik</li>
+                            <li>asrarmalik736@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-center " style="width: 60%; padding-left: 20px;">
+            <img class="me-3" src="assets/b1.jpg" alt="insta" style="width: 15%; border-radius: 100%;">
+            <img class="me-3" src="assets/b2.jpg" alt="linkedIn" style="width: 15%; border-radius: 100%;">
+            <img class="me-3" src="assets/b3.jpg" alt="snapchat" style="width: 15%; border-radius: 100%;">
+            <img src="assets/b4.jpg" alt="twitter" style="width: 15%; border-radius: 100%;">
+        </div>
+    </footer>
+
+    <script src="/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
